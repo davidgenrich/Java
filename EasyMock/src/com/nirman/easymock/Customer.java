@@ -2,8 +2,8 @@ package com.nirman.easymock;
 
 public class Customer {
 
-	String name;
-	Retailer retailer;
+	private String name;
+	private Retailer retailer;
 
 	public int getProductPrice(String productId) throws Exception{
 		int price = retailer.getPriceForProduct(productId);
